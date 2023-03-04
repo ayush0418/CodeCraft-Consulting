@@ -1,0 +1,131 @@
+.serv-container{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    background-color: #fff;
+    /* max-width: 1540px; */
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 35px;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+.serv-left{
+    margin-left: 20%;
+}
+.serv-left span{
+    color:rgb(228,205,56);
+}
+
+.serv-left h3{
+    font-size: 50px;
+    color: black;
+    font-weight: normal;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    margin-right: 4rem;
+}
+.serv-left p{
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+    margin-top: 0rem;
+    padding: 1.5rem;
+    margin-right: 5rem;
+}
+
+.serv-container .serv-right{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    background-color: #fff;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-gap: 35px;
+    margin-right: 17%;
+}
+
+.serv-right p{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5rem;
+}
+
+.serv-right h4{
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.serv-link{
+    color: black;
+    font-size: 18px;
+    font-weight:510;
+    position: relative;
+}
+
+.serv-link:hover{
+    background: #fff;
+    color: rgb(228,205,56);
+    transition: 0.3s;
+}
+
+@media screen and (max-width:640px) {
+    .serv-container{
+        grid-template-columns: 1fr
+    }
+    .serv-left{
+        margin-left: 0%;
+    }
+    .serv-left h3{
+        font-size: 30px;
+        color: black;
+        font-weight: normal;
+        margin-right: 0.5rem;
+        margin-left: -0.6rem;
+        margin-top: 1rem;
+    }
+    .serv-left p{
+        font-size: 18.5px;
+        color: black;
+        font-weight: normal;
+        margin-right: 0.5rem;
+        margin-left: -0.6rem;
+        margin-top: -1.5rem;
+    }
+    .serv-container .serv-right{
+        grid-template-columns: 1fr;
+    }
+    .serv-right p{
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 0.5rem;
+    }
+    
+    .serv-right h4{
+        color: black;
+        font-size: 17px;
+        font-weight: 250;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: -4rem;
+    }
+    
+    .serv-link{
+        color: black;
+        font-size: 18px;
+        font-weight:510;
+        position: relative;
+        margin-left: 1rem;
+        margin-top: 0.4rem;
+    }
+}
